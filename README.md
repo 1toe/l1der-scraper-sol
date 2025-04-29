@@ -96,6 +96,3 @@ Los datos se guardan en formato CSV con la siguiente estructura:
 - La extracción de datos puede ser lenta debido a las pausas necesarias para evitar ser detectado como bot.
 - La determinación de si un producto es líquido o sólido se basa en heurísticas que pueden no ser 100% precisas.
 
-## Autor
-
-Manus AI - Abril 2025

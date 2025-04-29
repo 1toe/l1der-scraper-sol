@@ -7,7 +7,6 @@ Lider Product Scraper
 Este script extrae datos de productos del sitio web de Lider.cl, filtrando aquellos
 que tienen máximo 2 sellos "ALTO EN" según la Ley 20.606.
 
-Autor: Manus AI
 Fecha: Abril 2025
 """
 

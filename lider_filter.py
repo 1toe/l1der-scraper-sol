@@ -7,7 +7,6 @@ Lider Product Filter
 Este script implementa la lógica de filtrado para productos con máximo 2 sellos "ALTO EN"
 según la Ley 20.606, utilizando los datos extraídos del sitio web de Lider.cl.
 
-Autor: Manus AI
 Fecha: Abril 2025
 """
 
