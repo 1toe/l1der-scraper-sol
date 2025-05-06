@@ -1,0 +1,7 @@
+**/*.pyc
+env
+**/__pycache__
+.idea
+*.crt
+.DS_Store
+dummy*

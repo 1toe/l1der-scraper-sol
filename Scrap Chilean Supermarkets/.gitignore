@@ -1,0 +1,6 @@
+*__pycache__/
+*.csv
+*.ipynb
+*.json
+.DS_Store
+./chrome_data

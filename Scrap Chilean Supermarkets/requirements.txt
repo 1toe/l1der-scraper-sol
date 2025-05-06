@@ -1,0 +1,9 @@
+Scrapy==2.11.0
+selenium==4.18.1
+undetected-chromedriver==3.5.5
+itemadapter==0.8.0
+python-dateutil==2.8.2
+w3lib==2.1.2
+webdriver-manager==4.0.1
+requests==2.31.0
+beautifulsoup4==4.12.3
