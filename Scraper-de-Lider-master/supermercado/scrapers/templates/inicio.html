@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <!-- script para ajax -->
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script>
+            $(document).ready(function(){
+                var horas=2;
+                var minutos=0;
+                var segundos=0;
+                window.onload = updateClock;
+                function updateClock() {
+                    document.getElementById("horas").innerHTML = horas;
+                    document.getElementById("minutos").innerHTML = minutos;
+                    document.getElementById("segundos").innerHTML = segundos;
+                    if(horas == 0 && minutos==0 && segundos==0){
+                        location.href = this.location;
+                    }
+                    else{
+                        if(segundos==0){
+                            segundos=60;
+                            if(minutos==0){
+                                horas-=1;
+                                minutos=60;
+                            }
+                            minutos-=1;
+                        }
+                        segundos-=1;
+                        setTimeout(updateClock,1000);
+                    }
+                };
+                updateClock();
+            })
+        </script>
+    </head>
+    <body>
+        <span>Cuenta regresiva para volver a scrapear:</span> <span id="horas">2</span>:<span id=minutos>00</span>:<span id="segundos">00</span>
+        <table style="width:100%">
+            <tr>
+                <th>Marca</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Fecha</th>
+            </tr>
+            {% for i in conte %}
+            <tr>
+                <td>{{i.marca}}</td>
+                <td>{{i.nombre}}</td>
+                <td>{{i.precio}}</td>
+                <td>{{i.fecha}}</td>
+            </tr>
+            {% endfor%}
+        </table>
+        
+    </body>
+</html>

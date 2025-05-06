@@ -1,0 +1,17 @@
+{
+  search_box
+    product_info: document.querySelector('.server-description') {
+      price: element.querySelector('strong').innerText,
+      specifications: {
+        rows: Array.from(element.querySelectorAll(':scope > div > div')).reduce((acc, el, index, arr) => {
+          if (index % 2 === 0 && index < arr.length - 1) {
+            acc.push({
+              key: el.innerText.trim(),
+              value: arr[index + 1].innerText.trim()
+            });
+          }
+          return acc;
+        }, [])
+      }
+    }
+}

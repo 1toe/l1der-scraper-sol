@@ -1,0 +1,28 @@
+{
+  product_info: document.querySelector('#OKTS_div') {
+    // Información básica del producto
+    description: element.querySelector('.section_title + .section_text').innerText,
+    country_of_origin: element.querySelector('p.section_title:contains("País de origen") + p.section_text').innerText,
+    ingredients: element.querySelector('p.section_title:contains("Ingredientes") + p.section_text').innerText,
+    allergens: element.querySelector('p.section_title:contains("Declaración de Alérgenos") + p.section_text').innerText,
+    may_contain: element.querySelector('p.section_title:contains("Puede contener trazas de") + p.section_text').innerText,
+    
+    // Información nutricional
+    nutritional_info: {
+      serving_size: element.querySelector('td strong:contains("Porción") + span').innerText,
+      servings_per_container: element.querySelector('td strong:contains("Porciones por envase") + span').innerText,
+      
+      // Extracción de los valores nutricionales
+      nutrients: Array.from(element.querySelectorAll('table tbody tr')).slice(2).map(row => {
+        const cells = row.querySelectorAll('td');
+        let label = cells[0].innerText.trim();
+        
+        return {
+          name: label,
+          per_100g: cells[1]?.innerText.trim() || '',
+          per_serving: cells[2]?.innerText.trim() || ''
+        };
+      })
+    }
+  }
+}
