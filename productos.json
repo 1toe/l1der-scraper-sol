@@ -1,0 +1,139 @@
+{
+    "nutritionalTable": {
+        "portionText": "4 Galletas",
+        "portionValue": "36 g",
+        "totalPortions": "3",
+        "table": [
+            [
+                "Nutrientes",
+                "100g",
+                "1 Porción"
+            ],
+            [
+                "Energía (kCal)",
+                "480",
+                "172,8"
+            ],
+            [
+                "Proteínas (g)",
+                "4",
+                "1,4"
+            ],
+            [
+                "Grasas Totales (g)",
+                "20",
+                "7,2"
+            ],
+            [
+                "Grasas saturadas (g)",
+                "9",
+                "3,2"
+            ],
+            [
+                "Grasas monoinsaturadas (g)",
+                "8",
+                "2,9"
+            ],
+            [
+                "Grasas poliinsaturadas (g)",
+                "2",
+                "0,7"
+            ],
+            [
+                "Grasas trans (g)",
+                "0",
+                "0"
+            ],
+            [
+                "Colesterol (mg)",
+                "0",
+                "0"
+            ],
+            [
+                "H. de C. disponibles (g)",
+                "68",
+                "24,5"
+            ],
+            [
+                "Azúcares totales (g)",
+                "40",
+                "14,4"
+            ],
+            [
+                "Sodio (mg)",
+                "450",
+                "162"
+            ]
+        ]
+    },
+    "suitabilities": [
+        {
+            "code": "lactose_free",
+            "description": "No declara lactosa",
+            "imageUrl": "https://static.okto.shop/img/certifications/lactose_free_v1.svg"
+        },
+        {
+            "code": "soy_free",
+            "description": "No declara soya ni derivados",
+            "imageUrl": "https://static.okto.shop/img/certifications/soy_free_v1.svg"
+        },
+        {
+            "code": "egg_free",
+            "description": "No declara huevo ni derivados",
+            "imageUrl": "https://static.okto.shop/img/certifications/egg_free_v1.svg"
+        },
+        {
+            "code": "fish_free",
+            "description": "No declara peces ni derivados",
+            "imageUrl": "https://static.okto.shop/img/certifications/fish_free_v1.svg"
+        },
+        {
+            "code": "seafood_free",
+            "description": "No declara mariscos o crustáceos",
+            "imageUrl": "https://static.okto.shop/img/certifications/seafood_free_v1.svg"
+        },
+        {
+            "code": "nuts_free",
+            "description": "No declara frutos secos",
+            "imageUrl": "https://static.okto.shop/img/certifications/nuts_free_v1.svg"
+        },
+        {
+            "code": "peanut_free",
+            "description": "No declara maní",
+            "imageUrl": "https://static.okto.shop/img/certifications/peanuts_free_v1.svg"
+        },
+        {
+            "code": "walnuts_free",
+            "description": "No declara nueces de árbol",
+            "imageUrl": "https://static.okto.shop/img/certifications/walnuts_free_v1.svg"
+        },
+        {
+            "code": "sulphite_free",
+            "description": "No declara sulfitos",
+            "imageUrl": "https://static.okto.shop/img/certifications/sulphites_free_v1.svg"
+        }
+    ],
+    "stamps": [
+        {
+            "code": "minsal_cl_high_sugar",
+            "description": "Alto en Azúcares",
+            "imageUrl": "https://static.okto.shop/img/warnings/minsal_cl_high_sugar.svg"
+        },
+        {
+            "code": "minsal_cl_high_saturated_fat",
+            "description": "Alto en Grasas Saturadas",
+            "imageUrl": "https://static.okto.shop/img/warnings/minsal_cl_high_saturated_fat.svg"
+        },
+        {
+            "code": "minsal_cl_high_sodium",
+            "description": "Alto en Sodio",
+            "imageUrl": "https://static.okto.shop/img/warnings/minsal_cl_high_sodium.svg"
+        },
+        {
+            "code": "minsal_cl_high_calories",
+            "description": "Alto en Calorías",
+            "imageUrl": "https://static.okto.shop/img/warnings/minsal_cl_high_calories.svg"
+        }
+    ],
+    "hasAlcohol": false
+}
